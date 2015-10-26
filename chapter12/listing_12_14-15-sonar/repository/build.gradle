@@ -40,6 +40,6 @@ check.dependsOn stopDatabase
 
 sonarRunner {
     sonarProperties {
-        properties['sonar.tests'] += sourceSets.integrationTest.allSource.srcDirs
+        //properties['sonar.tests'] += sourceSets.integrationTest.allSource.srcDirs
     }
 }
